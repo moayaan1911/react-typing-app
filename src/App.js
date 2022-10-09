@@ -2,8 +2,9 @@ import { useEffect, useState, useRef } from "react";
 import randomWords from "random-words";
 import { Finished } from "./components/Finished";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 const NUMBER_OF_WORDS = 300;
-const TIME = 10;
+const TIME = 60;
 
 function App() {
   const [words, setWords] = useState([]);
@@ -158,6 +159,8 @@ function App() {
       {status === "finished" && (
         <Finished correct={correct} incorrect={incorrect} />
       )}
+
+      {status !== "started" && <Footer />}
     </div>
   );
 }

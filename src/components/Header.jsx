@@ -37,10 +37,17 @@ export const Header = () => {
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
-              <a href=""></a>
-              <span className="button is-info" style={{ paddingRight: "20px" }}>
-                GITHUB
-              </span>
+              <a
+                href="https://github.com/moayaan1911/react-typing-app"
+                target={"_blank"}
+              >
+                <span
+                  className="button is-info"
+                  style={{ paddingRight: "20px" }}
+                >
+                  GITHUB
+                </span>
+              </a>
             </p>
           </div>
         </div>
