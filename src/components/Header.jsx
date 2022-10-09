@@ -37,6 +37,11 @@ export const Header = () => {
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
+              <a href="https://forms.gle/njXSTDZrFrkwQeGr7" target={"_blank"}>
+                <span className="button is-light">FEEDBACK</span>
+              </a>
+            </p>
+            <p class="control">
               <a
                 href="https://github.com/moayaan1911/react-typing-app"
                 target={"_blank"}
