@@ -26,6 +26,8 @@ Steps to run this project on your local machine:-
 2. Open the cloned folder
 3. Run `yarn` OR `npm i`
 4. Run `yarn start` OR `npm run start`
+___
+
 
 ## About the Developer
 
